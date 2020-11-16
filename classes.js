@@ -160,7 +160,7 @@ class Machine{
 
   makeWidgets(num){
     this.widgets_made_count += num
-    if(this.widgets_made_count %50 == 0){
+    if(this.widgets_made_count % 50 == 0){
       this.wear_and_tear_count +=1
     }
 
